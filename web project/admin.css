@@ -1,0 +1,24 @@
+h2{
+ font-size:50px;
+ font-family:impact;
+ color:blue;
+ text-align:center;
+
+}
+.option{
+	display:iniline-flex;
+	margin:10px;
+	padding:10px;
+	
+	display:flex;
+	
+}
+p{
+	
+	font-size: 40px;
+	font-weight:bold;
+	color:blue;
+
+	
+}
+

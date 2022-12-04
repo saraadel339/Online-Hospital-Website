@@ -1,0 +1,744 @@
+
+
+  <!DOC TYPE HTML PUBLIC "-//W3C//STD HTML 4.01 Transitional//EN">
+<html lang="en">
+<head>
+    <title> Online hospital </title>
+    <script type="application/x-javascript">
+    </script>
+	<style> 
+
+	 .container, .container1, .container2, .container3, .container4, .container5, .container6, .container7, .container8, .container9
+	   {
+         display:inline-flex;		
+	   }
+	 .photo
+	   {
+	     border: 1px solid black;
+         width:200; 
+         min-height:50;
+         max-height:1000;
+	     padding:10;
+         margin:5;
+		 
+	   }
+	 .paragraph
+	   {
+	     color: blue;
+	   }
+	
+	 .font
+	   {
+	     font-weight: bold;
+	     color: black
+	   }
+	
+	 #btn,#btn1,#btn2,#btn3,#btn4, #mybutton,#mybutton1,#mybutton2,#mybutton3,#mybutton4,#mybutton5 ,#myButton,#myButton1,#myButton2,#myButton3,#myButton4,#Btn,#Btn1,#Btn2,#Btn3,#Btn4,#Btn5 ,#MYButton,#MYButton1,#MYButton2,#MYButton3,#MYButton4 ,#BTn,#BTn1,#BTn2,#BTn3,#BTn4 ,#BTN,#BTN1,#BTN2,#BTN3,#BTN4 ,#BtN,#BtN1,#BtN2,#BtN3 ,#BUTTON,#BUTTON1,#BUTTON2,#BUTTON3,#BUTTON4,#BUTTON5 ,#MYBUTTON,#MYBUTTON1,#MYBUTTON1,#MYBUTTON2
+	   {
+	     text-align: center;
+	     border: 2px solid silver;
+	     border-radius: 5px;
+	     background: white;
+	     color: black;
+	     padding: 7 15;
+	     margin: 5;
+	     font-size: 12;
+	     font-weight: bold;
+	     position: relative;
+         left: 38px;
+	     cursor: pointer;
+	     box-shadow: 0px 2px 15px gray;
+	     transition: all 0.5s;
+	  
+	   }
+	 #btn:hover ,#btn1:hover ,#btn2:hover ,#btn3:hover ,#btn4:hover , #mybutton:hover ,#mybutton1:hover ,#mybutton2:hover ,#mybutton3:hover ,#mybutton4:hover ,#mybutton5:hover ,#myButton:hover ,#myButton1:hover ,#myButton2:hover ,#myButton3:hover ,#myButton4:hover ,#Btn:hover ,#Btn1:hover ,#Btn2:hover ,#Btn3:hover ,#Btn4:hover ,#Btn5:hover  ,#MYButton:hover ,#MYButton1:hover ,#MYButton2:hover ,#MYButton3:hover ,#MYButton4:hover ,#BTn:hover ,#BTn1:hover ,#BTn2:hover ,#BTn3:hover ,#BTn4:hover ,#BTN:hover ,#BTN1:hover ,#BTN2:hover ,#BTN3:hover ,#BTN4:hover ,#BtN:hover ,#BtN1:hover ,#BtN2:hover ,#BtN3:hover ,#BUTTON:hover ,#BUTTON1:hover ,#BUTTON2:hover ,#BUTTON3:hover ,#BUTTON4:hover ,#BUTTON5:hover ,#MYBUTTON:hover ,#MYBUTTON1:hover ,#MYBUTTON1:hover ,#MYBUTTON2:hover 
+	   {
+         box-shadow: none;	
+	   }
+     .field
+       {
+	     width: 200;
+         border: 2px solid black;
+         padding: 1px;
+         margin: 10px
+       }
+     .leg
+       {
+         font-weight: bold;
+       }
+	</style>
+</head>
+
+<body>
+ <script>
+  /* Functions of container*/
+  function display()
+  {
+    document.getElementById("btn").value="Reserved";
+  }
+  function display1()
+  {
+    document.getElementById("btn1").value="Reserved";
+  }
+  function display2()
+  {
+    document.getElementById("btn2").value="Reserved";
+  }
+  function display3()
+  {
+    document.getElementById("btn3").value="Reserved";
+  }
+  function display4()
+  {
+    document.getElementById("btn4").value="Reserved";
+  }
+  
+   /* Functions of container1*/
+  function change()
+  {
+    document.getElementById("mybutton").value="Reserved";
+  }
+  function change1()
+  {
+    document.getElementById("mybutton1").value="Reserved";
+  }
+  function change2()
+  {
+    document.getElementById("mybutton2").value="Reserved";
+  }
+  function change3()
+  {
+    document.getElementById("mybutton3").value="Reserved";
+  }
+  function change4()
+  {
+    document.getElementById("mybutton4").value="Reserved";
+  }
+  function change5()
+  {
+    document.getElementById("mybutton5").value="Reserved";
+  }
+  
+   /* Functions of container2*/
+    function Display()
+  {
+    document.getElementById("myButton").value="Reserved";
+  }
+    function Display1()
+  {
+    document.getElementById("myButton1").value="Reserved";
+  }
+    function Display2()
+  {
+    document.getElementById("myButton2").value="Reserved";
+  }
+    function Display3()
+  {
+    document.getElementById("myButton3").value="Reserved";
+  }
+    function Display4()
+  {
+    document.getElementById("myButton4").value="Reserved";
+  }
+ 
+   /* Functions of container3*/
+   function Change()
+  {
+    document.getElementById("Btn").value="Reserved";
+  }
+  function Change1()
+  {
+    document.getElementById("Btn1").value="Reserved";
+  }
+  function Change2()
+  {
+    document.getElementById("Btn2").value="Reserved";
+  }
+  function Change3()
+  {
+    document.getElementById("Btn3").value="Reserved";
+  }
+  function Change4()
+  {
+    document.getElementById("Btn4").value="Reserved";
+  }
+  function Change5()
+  {
+    document.getElementById("Btn5").value="Reserved";
+  }
+  
+   /* Functions of container4*/
+     function play()
+  {
+    document.getElementById("MYButton").value="Reserved";
+  }
+    function play1()
+  {
+    document.getElementById("MYButton1").value="Reserved";
+  }
+    function play2()
+  {
+    document.getElementById("MYButton2").value="Reserved";
+  }
+    function play3()
+  {
+    document.getElementById("MYButton3").value="Reserved";
+  }
+    function play4()
+  {
+    document.getElementById("MYButton4").value="Reserved";
+  }
+  
+    /* Functions of container5*/
+	  function DISplay()
+  {
+    document.getElementById("BTn").value="Reserved";
+  }
+  function DISplay1()
+  {
+    document.getElementById("BTn1").value="Reserved";
+  }
+  function DISplay2()
+  {
+    document.getElementById("BTn2").value="Reserved";
+  }
+  function DISplay3()
+  {
+    document.getElementById("BTn3").value="Reserved";
+  }
+  function DISplay4()
+  {
+    document.getElementById("BTn4").value="Reserved";
+  }
+	
+	/* Functions of container6*/
+  	  function DISPLAY()
+  {
+    document.getElementById("BTN").value="Reserved";
+  }
+  function DISPLAY1()
+  {
+    document.getElementById("BTN1").value="Reserved";
+  }
+  function DISPLAY2()
+  {
+    document.getElementById("BTN2").value="Reserved";
+  }
+  function DISPLAY3()
+  {
+    document.getElementById("BTN3").value="Reserved";
+  }
+  function DISPLAY4()
+  {
+    document.getElementById("BTN4").value="Reserved";
+  }
+  
+    /* Functions of container7*/
+  function CHANGE()
+  {
+    document.getElementById("BtN").value="Reserved";
+  }
+  function CHANGE1()
+  {
+    document.getElementById("BtN1").value="Reserved";
+  }
+  function CHANGE2()
+  {
+    document.getElementById("BtN2").value="Reserved";
+  }
+  function CHANGE3()
+  {
+    document.getElementById("BtN3").value="Reserved";
+  }
+	
+	/* Functions of container8*/
+  function PLAY()
+  {
+    document.getElementById("BUTTON").value="Reserved";
+  }
+  function PLAY1()
+  {
+    document.getElementById("BUTTON1").value="Reserved";
+  }
+  function PLAY2()
+  {
+    document.getElementById("BUTTON2").value="Reserved";
+  }
+  function PLAY3()
+  {
+    document.getElementById("BUTTON3").value="Reserved";
+  }
+  function PLAY4()
+  {
+    document.getElementById("BUTTON4").value="Reserved";
+  }
+  function PLAY5()
+  {
+    document.getElementById("BUTTON5").value="Reserved";
+  }
+	
+	/* Functions of container9*/
+ function DPLAY()
+  {
+    document.getElementById("MYBUTTON").value="Reserved";
+  }
+  function DPLAY1()
+  {
+    document.getElementById("MYBUTTON1").value="Reserved";
+  }
+  function DPLAY2()
+  {
+    document.getElementById("MYBUTTON2").value="Reserved";
+  }
+ </script>
+
+ <fieldset class= "field">
+  <legend class= "leg">Heart Treatments</legend>
+  <div class = "container">
+   <div class= "photo" >
+     <img src="Cardoxin.JPG" width=200 height=150 >
+	 <p class= "paragraph"> <span class= "font"> Medicine name:</span> Cardoxin </p>
+     <p class= "paragraph"> <span class= "font"> Price:</span> 120 LE <p>
+	 <p class= "paragraph"> <span class= "font"> Available amount:</span> 10</p> 
+	 <input type="button" value= "Reserve Now" id="btn" onclick="display()" />
+   </div>
+ 
+   <div class= "photo" >
+     <img src="Lanoxin.JPG" width=200 height=150 >
+ 	 <p class= "paragraph"> <span class= "font"> Medicine name:</span> Lanoxin </p> 
+	 <p class= "paragraph"> <span class= "font"> Price:</span> 100 LE <p>
+	 <p class= "paragraph"> <span class= "font"> Available amount:</span> 9 </p> 
+     <input type="button" value= "Reserve Now" id="btn1" onclick="display1()" />
+   </div>
+	 
+   <div class= "photo" >
+        <img src="Sorine.JPG" width=200 height=150 >
+	    <p class= "paragraph"> <span class= "font"> Medicine name:</span> Sorine  </p> 
+        <p class= "paragraph"> <span class= "font"> Price:</span> 200 LE <p>
+        <p class= "paragraph"> <span class= "font"> Available amount:</span> 8 </p> 
+	    <input type="button" value= "Reserve Now" id="btn2" onclick="display2()" /> 
+   </div>
+	  
+   <div class= "photo" >
+        <img src="Atropine.JPG" width=200 height=150 >
+	    <p class= "paragraph"> <span class= "font"> Medicine name:</span> ATROPINE SULPHATE 0.6MG\ML AMPOULE </p> 
+	    <p class= "paragraph"> <span class= "font"> Price:</span> 110 LE <p>
+        <p class= "paragraph"> <span class= "font"> Available amount:</span> 2 </p> 
+        <input type="button" value= "Reserve Now" id="btn3" onclick="display3()" />
+   </div>
+	  
+   <div class= "photo" >
+        <img src="Inderal.JPG" width=200 height=150 >
+	    <p class= "paragraph"> <span class= "font"> Medicine name:</span> INDERAL TABLETS 40 MG  </p> 
+	    <p class= "paragraph"> <span class= "font"> Price:</span>250 LE <p>
+	    <p class= "paragraph"> <span class= "font"> Available amount:</span> 3 </p>
+      <input type="button" value= "Reserve Now" id="btn4" onclick="display4()" />
+   </div>
+ </div>
+ </fieldset>
+ 
+ <fieldset class= "field">
+  <legend class= "leg">Orthopaedic Surgery Treatments </legend>
+  <div class = "container1">
+   <div class= "photo" >
+      <img src="Evista.JPG" width=200 height=150 >
+	    <p class= "paragraph"> <span class= "font"> Medicine name:</span> EVISTA 60 MG F-C TABLETS  </p>
+     <p class= "paragraph"> <span class= "font"> Price:</span> 120 LE <p>
+	    <p class= "paragraph"> <span class= "font"> Available amount:</span> 2 </p> 
+	 <input type="button" value= "Reserve Now" id="mybutton" onclick="change()" />
+   </div>
+ 
+   <div class= "photo" >
+     <img src="Alendro.JPG" width=200 height=150 >
+ 	   <p class= "paragraph"> <span class= "font"> Medicine name:</span> ALENDRO  </p> 
+	    <p class= "paragraph"> <span class= "font"> Price:</span> 250 LE<p>
+	    <p class= "paragraph"> <span class= "font"> Available amount:</span> 15 </p> 
+	 <input type="button" value= "Reserve Now" id="mybutton1" onclick="change1()" />
+   </div>
+	 
+   <div class= "photo" >
+    <img src="fosamax.JPG" width=200 height=150 >
+	    <p class= "paragraph"> <span class= "font"> Medicine name:</span> FOSAMAX  TAB   </p> 
+     <p class= "paragraph"> <span class= "font"> Price:</span> 300 LE <p>
+     <p class= "paragraph"> <span class= "font"> Available amount:</span> 6 </p>
+	 <input type="button" value= "Reserve Now" id="mybutton2" onclick="change2()" />
+   </div>
+	  
+   <div class= "photo" >
+     <img src="Osteodens.JPG" width=200 height=150 >
+	    <p class= "paragraph"> <span class= "font"> Medicine name:</span> OSTEODENS 70MG TABLETS</p> 
+	    <p class= "paragraph"> <span class= "font"> Price:</span>300 LE<p>
+	    <p class= "paragraph"> <span class= "font"> Available amount:</span> 9 </p> 
+	 <input type="button" value= "Reserve Now" id="mybutton3" onclick="change3()" />
+   </div>
+	  
+   <div class= "photo" >
+      <img src="Miacalcic.JPG" width=200 height=150 >
+	    <p class= "paragraph"> <span class= "font"> Medicine name:</span> MIACALCIC 100 IU-ML AMP  </p> 
+	    <p class= "paragraph"> <span class= "font"> Price:</span>70 LE <p>
+	    <p class= "paragraph"> <span class= "font"> Available amount:</span> 6 </p> 
+	 <input type="button" value= "Reserve Now" id="mybutton4" onclick="change4()" />
+   </div>
+	  
+   <div class= "photo" >
+    <img src="Premarin.JPG" width=200 height=150 >
+	    <p class= "paragraph"> <span class= "font"> Medicine name:</span> Premarin  </p> 
+	    <p class= "paragraph"> <span class= "font"> Price:</span> 135 LE <p>
+	    <p class= "paragraph"> <span class= "font"> Available amount:</span> 20 </p>
+	 <input type="button" value= "Reserve Now" id="mybutton5" onclick="change5()" />
+   </div>
+ </div>
+ </fieldset>
+ 
+ <fieldset class= "field">
+  <legend class= "leg">Digestive System Treatments</legend>
+  <div class = "container2">
+   <div class= "photo" >
+        <img src="Alugel.JPG" width=200 height=150 >
+	    <p class= "paragraph"> <span class= "font"> Medicine name:</span> ALUGEL SUSP  </p>
+        <p class= "paragraph"> <span class= "font"> Price:</span> 100 LE <p>
+	    <p class= "paragraph"> <span class= "font"> Available amount:</span> 5 </p> 
+	    <input type="button" value= "Reserve Now" id="myButton" onclick="Display()" />
+   </div>
+ 
+   <div class= "photo" >
+     <img src="De-nol.JPG" width=200 height=150 >
+	 <p class= "paragraph"> <span class= "font"> Medicine name:</span> DE-NOL 120MG TABS </p> 
+     <p class= "paragraph"> <span class= "font"> Price:</span> 120 LE<p>
+     <p class= "paragraph"> <span class= "font"> Available amount:</span> 7 </p> 
+	 <input type="button" value= "Reserve Now" id="myButton1" onclick="Display1()" />
+   </div>
+	 
+   <div class= "photo" >
+        <img src="Gaviscon.JPG" width=200 height=150 >
+	    <p class= "paragraph"> <span class= "font"> Medicine name:</span> GAVISCON EXTRA STRENGTH PEPPER.CHEW. TAB  </p> 
+	    <p class= "paragraph"> <span class= "font"> Price:</span> 270 LE		<p>
+	    <p class= "paragraph"> <span class= "font"> Available amount:</span> 11 </p> 
+	 <input type="button" value= "Reserve Now" id="myButton2" onclick="Display2()" />
+   </div>
+	  
+   <div class= "photo" >
+     <img src="Di-Gel.JPG" width=200 height=150 >
+	    <p class= "paragraph"> <span class= "font"> Medicine name:</span> DE-NOL 120MG TABS  </p> 
+	    <p class= "paragraph"> <span class= "font"> Price:</span> 60 LE		<p>
+	    <p class= "paragraph"> <span class= "font"> Available amount:</span> 4</p> 
+	 <input type="button" value= "Reserve Now" id="myButton3" onclick="Display3()" />
+   </div>
+	  
+   <div class= "photo" >
+     <img src="Maalox.JPG" width=200 height=150 >
+	    <p class= "paragraph"> <span class= "font"> Medicine name:</span> MAALOX SUSPENSION </p> 
+	    <p class= "paragraph"> <span class= "font"> Price:</span> 120 LE <p>
+	    <p class= "paragraph"> <span class= "font"> Available amount:</span> 10 </p> 
+	 <input type="button" value= "Reserve Now" id="myButton4" onclick="Display4()" />
+   </div> 
+ </div>
+ </fieldset>
+ 
+ <fieldset class= "field">
+  <legend class= "leg">Ears,Nose and Throat Treatments</legend>
+  <div class = "container3">
+   <div class= "photo" >
+    <img src="Tifed Tab.JPG" width=200 height=150 >
+	    <p class= "paragraph"> <span class= "font"> Medicine name:</span> TRIFED TAB  </p>
+     <p class= "paragraph"> <span class= "font"> Price:</span> 120 LE <p>
+	    <p class= "paragraph"> <span class= "font"> Available amount:</span> 6</p> 
+	 <input type="button" value= "Reserve Now" id="Btn" onclick="Change()" />
+   </div>
+ 
+   <div class= "photo" >
+     <img src="Panadol.PNG" width=200 height=150 >
+ 	   <p class= "paragraph"> <span class= "font"> Medicine name:</span> PANADOL COLD & FLU CAPLETweeeeeeee  </p> 
+	    <p class= "paragraph"> <span class= "font"> Price:</span> 200 LE <p>
+	    <p class= "paragraph"> <span class= "font"> Available amount:</span> 15 </p> 
+	 <input type="button" value= "Reserve Now" id="Btn1" onclick="Change1()" />
+   </div>
+	 
+   <div class= "photo" >
+      <img src="Zithromax 250mg.JPG" width=200 height=150 >
+	    <p class= "paragraph"> <span class= "font"> Medicine name:</span> ZITHROMAX 250MG CAPS </p> 
+     <p class= "paragraph"> <span class= "font"> Price:</span> 250 LE <p>
+     <p class= "paragraph"> <span class= "font"> Available amount:</span> 8 </p> 
+	 <input type="button" value= "Reserve Now" id="Btn2" onclick="Change2()" />
+   </div>
+	  
+   <div class= "photo" >
+      <img src="Actifed.JPG" width=200 height=150 >
+	    <p class= "paragraph"> <span class= "font"> Medicine name:</span> ACTIFED TAB </p> 
+	    <p class= "paragraph"> <span class= "font"> Price:</span> 120 LE <p>
+	    <p class= "paragraph"> <span class= "font"> Available amount:</span> 8 </p> 
+	 <input type="button" value= "Reserve Now" id="Btn3" onclick="Change3()" />
+   </div>
+	  
+   <div class= "photo" >
+     <img src="Erythrocin.JPG" width=200 height=150 >
+	    <p class= "paragraph"> <span class= "font"> Medicine name:</span> ERYTHROCIN I.V. 500MG VIAL </p> 
+	    <p class= "paragraph"> <span class= "font"> Price:</span> 120 LE <p>
+	    <p class= "paragraph"> <span class= "font"> Available amount:</span> 7 </p> 
+	 <input type="button" value= "Reserve Now" id="Btn4" onclick="Change4()" />
+   </div>
+   
+   <div class= "photo" >
+     <img src="Trifed.JPG" width=200 height=150 >
+	    <p class= "paragraph"> <span class= "font"> Medicine name:</span> TRIFED SYRUP </p> 
+	    <p class= "paragraph"> <span class= "font"> Price:</span> 58 LE<p>
+	    <p class= "paragraph"> <span class= "font"> Available amount:</span> 3 </p> 
+	 <input type="button" value= "Reserve Now" id="Btn5" onclick="Change5()" />
+   </div>  
+ </div>
+ </fieldset>
+ 
+ <fieldset class= "field">
+  <legend class= "leg">Chidlren and Newborn Treatments</legend>
+  <div class = "container4">
+   <div class= "photo" >
+     <img src="Zocin.PNG" width=200 height=150 >
+	 <p class= "paragraph"> <span class= "font"> Medicine name:</span> ZOCIN 300MG CAPSULE </p>
+     <p class= "paragraph"> <span class= "font"> Price:</span> 120 LE <p>
+	 <p class= "paragraph"> <span class= "font"> Available amount:</span> 8 </p> 
+	 <input type="button" value= "Reserve Now" id="MYButton" onclick="play()" />
+   </div>
+ 
+   <div class= "photo" >
+      <img src="Dexasone.JPG" width=200 height=150 >
+ 	   <p class= "paragraph"> <span class= "font"> Medicine name:</span> Dexasone </p> 
+	    <p class= "paragraph"> <span class= "font"> Price:</span> 130 LE <p>
+	    <p class= "paragraph"> <span class= "font"> Available amount:</span> 15</p>
+	 <input type="button" value= "Reserve Now" id="MYButton1" onclick="play1()" />
+    </div>
+	 
+   <div class= "photo" >
+     <img src="Oftalmolosa.JPG" width=200 height=150 >
+	 <p class= "paragraph"> <span class= "font"> Medicine name:</span> OFTALMOLOSA 0.5% </p> 
+     <p class= "paragraph"> <span class= "font"> Price:</span> 140 LE <p>
+     <p class= "paragraph"> <span class= "font"> Available amount:</span> 5</p> 
+	 <input type="button" value= "Reserve Now" id="MYButton2" onclick="play2()" />
+   </div>
+	  
+   <div class= "photo" >
+      <img src="Zetron.JPG" width=200 height=150 >
+	    <p class= "paragraph"> <span class= "font"> Medicine name:</span> ZETRON 250 MG CAPSULE  </p> 
+	    <p class= "paragraph"> <span class= "font"> Price:</span> 40 LE<p>
+	    <p class= "paragraph"> <span class= "font"> Available amount:</span> 7 </p> 
+	 <input type="button" value= "Reserve Now" id="MYButton3" onclick="play3()" />
+   </div>
+	  
+   <div class= "photo" >
+     <img src="Zithromax.JPG" width=200 height=150 >
+	    <p class= "paragraph"> <span class= "font"> Medicine name:</span> ZITHROMAX 200MG-5ML SUSP.AFTER RECONSTIT  </p> 
+	    <p class= "paragraph"> <span class= "font"> Price:</span> < 60 LE <P>
+	    <p class= "paragraph"> <span class= "font"> Available amount:</span> 4 </p> 
+	 <input type="button" value= "Reserve Now" id="MYButton4" onclick="play4()" />
+   </div>  
+ </div>
+ </fieldset>
+ 
+ <fieldset class= "field">
+  <legend class= "leg">Stomach Burn Treatments</legend>
+  <div class = "container5">
+   <div class= "photo" >
+     <img src="gastrocaps.JPG" width=200 height=150 >
+	    <p class= "paragraph"> <span class= "font"> Medicine name:</span> GASEC 20MG GASTRO CAPS </p>
+     <p class= "paragraph"> <span class= "font"> Price:</span> 60 LE <p>
+	    <p class= "paragraph"> <span class= "font"> Available amount:</span> 11 </p> 
+	 <input type="button" value= "Reserve Now" id="BTn" onclick="DISplay()" />
+   </div>
+ 
+   <div class= "photo" >
+      <img src="EMILOK.JPG" width=200 height=150 >
+ 	   <p class= "paragraph"> <span class= "font"> Medicine name:</span> EMILOK 20MG CAPSULES </p> 
+	    <p class= "paragraph"> <span class= "font"> Price:</span> 120 LE<p>
+	    <p class= "paragraph"> <span class= "font"> Available amount:</span> 8 </p> 
+	 <input type="button" value= "Reserve Now" id="BTn1" onclick="DISplay1()" />
+    </div>
+	 
+   <div class= "photo" >
+      <img src="Losec.JPG" width=200 height=150 >
+	    <p class= "paragraph"> <span class= "font"> Medicine name:</span>LOSEC MUPS 10 MG TAB  </p> 
+     <p class= "paragraph"> <span class= "font"> Price:</span> 100 LE <p>
+     <p class= "paragraph"> <span class= "font"> Available amount:</span> 5 </p> 
+	 <input type="button" value= "Reserve Now" id="BTn2" onclick="DISplay2()" />
+   </div>
+	  
+   <div class= "photo" >
+    <img src="Risek.JPG" width=200 height=150 >
+	    <p class= "paragraph"> <span class= "font"> Medicine name:</span>RISEK 20 MG CAPS  </p> 
+	    <p class= "paragraph"> <span class= "font"> Price:</span> 120 LE <p>
+	    <p class= "paragraph"> <span class= "font"> Available amount:</span> 17 </p> 
+	 <input type="button" value= "Reserve Now" id="BTn3" onclick="DISplay3()" />
+   </div>
+	  
+   <div class= "photo" >
+      <img src="Omeprazole.JPG" width=200 height=150 >
+	    <p class= "paragraph"> <span class= "font"> Medicine name:</span> Omeprazole 20 Mg Tablet  </p> 
+	    <p class= "paragraph"> <span class= "font"> Price:</span> 256 LE <p>
+	    <p class= "paragraph"> <span class= "font"> Available amount:</span> 16 </p> 
+	 <input type="button" value= "Reserve Now" id="BTn4" onclick="DISplay4()" />
+   </div>  
+ </div>
+ </fieldset>
+ 
+ <fieldset class= "field">
+  <legend class= "leg">Rheumatoid arthritis Treatments</legend>
+  <div class = "container6">
+   <div class= "photo" >
+      <img src="Meticorten.JPG" width=200 height=150 >
+	    <p class= "paragraph"> <span class= "font"> Medicine name:</span> Meticorten  </p>
+     <p class= "paragraph"> <span class= "font"> Price:</span> 120 LE <p>
+	    <p class= "paragraph"> <span class= "font"> Available amount:</span> 5</p> 
+	 <input type="button" value= "Reserve Now" id="BTN" onclick="DISPLAY()" />
+   </div>
+ 
+   <div class= "photo" >
+     <img src="Artamin.JPG" width=200 height=150 >
+ 	   <p class= "paragraph"> <span class= "font"> Medicine name:</span> ARTAMIN 250 MG CAPS  </p> 
+	    <p class= "paragraph"> <span class= "font"> Price:</span> 290 LE<p>
+	    <p class= "paragraph"> <span class= "font"> Available amount:</span> 10 </p> 
+	 <input type="button" value= "Reserve Now" id="BTN1" onclick="DISPLAY1()" />
+   </div>
+	 
+   <div class= "photo" >
+     <img src="Brexin.JPG" width=200 height=150 >
+	    <p class= "paragraph"> <span class= "font"> Medicine name:</span> BREXIN 20MG TABLETS  </p> 
+     <p class= "paragraph"> <span class= "font"> Price:</span> 300 LE <p>
+     <p class= "paragraph"> <span class= "font"> Available amount:</span> 5 </p> 
+	 <input type="button" value= "Reserve Now" id="BTN2" onclick="DISPLAY2()" />
+   </div>
+	  
+   <div class= "photo" >
+      <img src="Mabthera.GIF" width=200 height=150 >
+	    <p class= "paragraph"> <span class= "font"> Medicine name:</span> MABTHERA 100MG-10ML CONC. FOR I.V INFUSION </p> 
+	    <p class= "paragraph"> <span class= "font"> Price:</span> 350 LE <p>
+	    <p class= "paragraph"> <span class= "font"> Available amount:</span> 9 </p> 
+	 <input type="button" value= "Reserve Now" id="BTN3" onclick="DISPLAY3()" />
+   </div>
+	  
+   <div class= "photo" >
+     <img src="Dispercam.JPG" width=200 height=150 >
+	    <p class= "paragraph"> <span class= "font"> Medicine name:</span> DISPERCAM GEL 0.5%  </p> 
+	    <p class= "paragraph"> <span class= "font"> Price:</span> 120 <p>
+	    <p class= "paragraph"> <span class= "font"> Available amount:</span> 11 </p> 
+	 <input type="button" value= "Reserve Now" id="BTN4" onclick="DISPLAY4()" />
+   </div>  
+ </div>
+ </fieldset>
+ 
+ <fieldset class= "field">
+  <legend class= "leg">Renal colic Treatments</legend>
+  <div class = "container7">
+   <div class= "photo" >
+      <img src="Cambia.JPG" width=200 height=150 >
+	    <p class= "paragraph"> <span class= "font"> Medicine name:</span> Cambia  </p>
+     <p class= "paragraph"> <span class= "font"> Price:</span> 40 LE <p>
+	    <p class= "paragraph"> <span class= "font"> Available amount:</span> 20 </p> 
+	 <input type="button" value= "Reserve Now" id="BtN" onclick="CHANGE()" />
+   </div>
+	  
+   <div class= "photo" >
+    <img src="Cataflam.JPG" width=200 height=150 >
+ 	   <p class= "paragraph"> <span class= "font"> Medicine name:</span> Cataflam</p> 
+	    <p class= "paragraph"> <span class= "font"> Price:</span> 120 LE <p>
+	    <p class= "paragraph"> <span class= "font"> Available amount:</span> 11 </p> 
+	 <input type="button" value= "Reserve Now" id="BtN1" onclick="CHANGE1()" />
+   </div>
+	  
+   <div class= "photo" >
+     <img src="Zipsor.JPG" width=200 height=150 >
+	    <p class= "paragraph"> <span class= "font"> Medicine name:</span> Zipsor  </p> 
+     <p class= "paragraph"> <span class= "font"> Price:</span> 120 LE <p>
+     <p class= "paragraph"> <span class= "font"> Available amount:</span> 10 </p> 
+	 <input type="button" value= "Reserve Now" id="BtN2" onclick="CHANGE2()" />
+   </div>
+	  
+	    
+   <div class= "photo" >
+     <img src="Rofenac.JPG" width=200 height=150 >
+	    <p class= "paragraph"> <span class= "font"> Medicine name:</span> Rofenac  </p> 
+	    <p class= "paragraph"> <span class= "font"> Price:</span> 187 LE <p>
+	    <p class= "paragraph"> <span class= "font"> Available amount:</span> 8 </p> 
+	 <input type="button" value= "Reserve Now" id="BtN3" onclick="CHANGE3()" />
+   </div>
+ </div>
+ </fieldset>
+ 
+ <fieldset class= "field">
+  <legend class= "leg">Insomnia Treatments</legend>
+  <div class = "container8">
+   <div class= "photo" >
+     <img src="Melatonin.JPG" width=200 height=150 >
+	    <p class= "paragraph"> <span class= "font"> Medicine name:</span> Melatonin  </p>
+     <p class= "paragraph"> <span class= "font"> Price:</span> 120 LE <p>
+	    <p class= "paragraph"> <span class= "font"> Available amount:</span> 16 </p> 
+	 <input type="button" value= "Reserve Now" id="BUTTON" onclick="PLAY()" />
+   </div>
+ 
+   <div class= "photo" >
+     <img src="Serax.JPG" width=200 height=150 >
+ 	   <p class= "paragraph"> <span class= "font"> Medicine name:</span> Serax </p> 
+	    <p class= "paragraph"> <span class= "font"> Price:</span> 270 LE <p>
+	    <p class= "paragraph"> <span class= "font"> Available amount:</span> 4 </p> 
+	 <input type="button" value= "Reserve Now" id="BUTTON1" onclick="PLAY1()" />
+   </div>
+	 
+   <div class= "photo" >
+     <img src="Lexotonil.JPG" width=200 height=150 >
+	    <p class= "paragraph"> <span class= "font"> Medicine name:</span> LEXOTANIL TAB. 1.5 MG. </p> 
+     <p class= "paragraph"> <span class= "font"> Price:</span> 300 LE <p>
+     <p class= "paragraph"> <span class= "font"> Available amount:</span> 17 </p> 
+	 <input type="button" value= "Reserve Now" id="BUTTON2" onclick="PLAY2()" />
+   </div>
+	  
+   <div class= "photo" >
+    <img src="Unisom.JPG" width=200 height=150 >
+	    <p class= "paragraph"> <span class= "font"> Medicine name:</span> Unisom </p> 
+	    <p class= "paragraph"> <span class= "font"> Price:</span>140 LE <p>
+	    <p class= "paragraph"> <span class= "font"> Available amount:</span> 2 </p> 
+	 <input type="button" value= "Reserve Now" id="BUTTON3" onclick="PLAY3()" />
+   </div>
+	  
+   <div class= "photo" >
+       <img src="Dormex.JPG" width=200 height=150 >
+	    <p class= "paragraph"> <span class= "font"> Medicine name:</span> Dormex </p> 
+	    <p class= "paragraph"> <span class= "font"> Price:</span> 165 LE<p>
+	    <p class= "paragraph"> <span class= "font"> Available amount:</span> 19 </p> 
+	 <input type="button" value= "Reserve Now" id="BUTTON4" onclick="PLAY4()" />
+   </div>
+	  
+   <div class= "photo" >
+     <img src="Rohypnol.JPG" width=200 height=150 >
+	 <p class= "paragraph"> <span class= "font"> Medicine name:</span> Rohypnol  </p> 
+	 <p class= "paragraph"> <span class= "font"> Price:</span> 120 LE <p>
+	 <p class= "paragraph"> <span class= "font"> Available amount:</span> 14 </p> 
+	 <input type="button" value= "Reserve Now" id="BUTTON5" onclick="PLAY5()" />
+	 </div>
+ </div>
+   
+   <div class = "container9">
+   <div class= "photo" >
+     <img src="phenobarbitone.JPG" width=200 height=150 >
+	 <p class= "paragraph"> <span class= "font"> Medicine name:</span>Phenobarbitone  </p>
+     <p class= "paragraph"> <span class= "font"> Price:</span> 180 LE <p>
+	 <p class= "paragraph"> <span class= "font"> Available amount:</span>13</p> 
+	 <input type="button" value= "Reserve Now" id="MYBUTTON" onclick="DPLAY()" />
+   </div>
+ 
+   <div class= "photo" >
+     <img src="RIVOTRIL.JPG" width=200 height=150 >
+ 	 <p class= "paragraph"> <span class= "font"> Medicine name:</span> 	RIVOTRIL AMP 1MG+SOLV 1ML  </p> 
+	 <p class= "paragraph"> <span class= "font"> Price:</span> 250 LE <p>
+	 <p class= "paragraph"> <span class= "font"> Available amount:</span> 17</p> 
+	 <input type="button" value= "Reserve Now" id="MYBUTTON1" onclick="DPLAY1()" />
+   </div>
+	 
+   <div class= "photo" >
+     <img src="DUMOLID.JPG" width=200 height=150 >
+	 <p class= "paragraph"> <span class= "font"> Medicine name:</span> DUMOLID TAB. 5 MG  </p> 
+     <p class= "paragraph"> <span class= "font"> Price:</span> 148 LE <p>
+     <p class= "paragraph"> <span class= "font"> Available amount:</span> 7</p> 
+	 <input type="button" value= "Reserve Now" id="MYBUTTON2" onclick="DPLAY2()" />
+   </div>	 
+ </fieldset>
+ 
+</body>
+</html>
+ 
